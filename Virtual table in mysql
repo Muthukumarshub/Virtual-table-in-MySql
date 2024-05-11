@@ -1,3 +1,4 @@
+#create your own database
 create database muthukumar;
 use muthukumar;
 Create Table Employee ( 
