@@ -1,0 +1,20 @@
+create database muthukumar;
+use muthukumar;
+Create Table Employee ( 
+ Employee_Name varchar(10),
+ Employee_No int,
+ Dept_Name Varchar(10),
+ Dept_No int,
+ Date_Of_Join Date);
+Desc Employee; 
+Create View Empview As Select Employee_Name,Employee_No,Dept_Name,Dept_No,Date_Of_Join From Employee;
+ Desc Empview;
+ Select * From Empview;
+ Insert Into Empview Values ('Sri', 120,'Cse', 67,'16-Nov-1981');
+ Select * From Empview;
+ Select * From Employee;
+ Delete From Empview Where Employee_Name='Sri';
+ Select * From Empview;
+  Update Empkaviview Set Employee_Name='Kavi' Where Employee_Name='Ravi';
+
+
